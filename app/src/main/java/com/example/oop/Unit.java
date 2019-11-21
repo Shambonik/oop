@@ -2,7 +2,7 @@ package com.example.oop;
 
 import android.widget.TextView;
 
-public class Unit {
+public class Unit implements Printable, Runnable{
 
     private String name = "Nill";
     private int health = 100;
@@ -16,7 +16,7 @@ public class Unit {
         textPlace.append("Меня зовут "+getName()+" и я имею "+health+" hp.\n");
     }
 
-    public String getName() {
+    public final String getName() {
         return name;
     }
 

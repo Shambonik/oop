@@ -22,5 +22,13 @@ public class MainActivity extends AppCompatActivity {
 
         alexey.letsGo(debugText);
         Shwarzneager.letsGo(debugText);
+
+        Wizzard Dumbledore = new Wizzard("Dumbledore", 20, 10000);
+        Dumbledore.printInfo(debugText);
+        Dumbledore.letsGo(debugText);
+
+        NPC npc = new NPC(1, "ожидает");
+        npc.printInfo(debugText);
+        npc.letsGo(debugText);
     }
 }

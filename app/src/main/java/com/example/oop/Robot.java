@@ -2,7 +2,7 @@ package com.example.oop;
 
 import android.widget.TextView;
 
-public class Robot extends Unit{
+public class Robot extends Unit implements Printable, Runnable{
 
     private int energy = 200;
 
